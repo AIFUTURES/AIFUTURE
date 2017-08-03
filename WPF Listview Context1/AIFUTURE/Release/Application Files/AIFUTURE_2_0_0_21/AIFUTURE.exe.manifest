@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="AIFUTURE.exe" version="2.0.0.21" publicKeyToken="92dd3203abbeb80f" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="favicon-20170727025746451.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="AIFUTURE" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="AIFUTURE.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+             如果想要更改 Windows 用户帐户控制级别，请使用
+             以下节点之一替换 requestedExecutionLevel 节点。n
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            指定 requestedExecutionLevel 元素将禁用文件和注册表虚拟化。
+            如果你的应用程序需要此虚拟化来实现向后兼容性，则删除此
+            元素。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AIFUTURE.exe" size="74176">
+      <assemblyIdentity name="AIFUTURE" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>VznuFT6uyGM7iyEcAQzjtkuLcwU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CTPDLL.dll" size="198656">
+      <assemblyIdentity name="CTPDLL" version="0.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Dq3XpuBmpGecVQejhp6w7JFJbvI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="AIFUTURE.exe.config" size="165">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9UEz4fVo+/M5IRUN0miOI+JxWeA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="favicon-20170727025746451.ico" size="16958">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>aaXvUKMdD8sMK9PAYwFDl3tXtFA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- 设计此应用程序与其一起工作且已针对此应用程序进行测试的
+           Windows 版本的列表。取消评论适当的元素，Windows 将
+           自动选择最兼容的环境。 -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=CloudExceedAD\ZhengJX" issuerKeyHash="bd05c70120ce6f986db1fe574d09100257219262" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>YRfwJrU9BhXgq4W0ZnBmEed3q4o=</DigestValue></Reference></SignedInfo><SignatureValue>fkqLgIgI4+pFQ9DVSy3rRBvJ89YVLqhNwX7MyKJXka/XodNSpzFC+2JllMGjq1Yx708WB76N0Y3Z7TT0h0rHuJiJEqWoHB4HpMAz/m4pjQ4MGunVvyoU+eiWDbXxxZOti3Ew7tjAcXLcpw8P7fcJllq4ONg7+K6hiuXsegH2lsA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rsC4VSti6fP1OQ6gzK9UaHt58AJ2SkweLC/ViG6Ln1Jdxy8XMjAb8yM+H1r79IAxVw4C02+9bvJ0Ym8bbLnOPejs3RLlC4ZQKLgxrMlrRpnkHjr6iiGCehHWSKI/zUquR6Di++81XVExrapnzfeyYh2NtxmuoXoP27a5Vpx7r9M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8aab77e711667066b485abe015063db526f01761" Description="" Url=""><as:assemblyIdentity name="AIFUTURE.exe" version="2.0.0.21" publicKeyToken="92dd3203abbeb80f" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=CloudExceedAD\ZhengJX</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>e5Yon6J6Qhtf1y6z8EIc7dKkQRQ=</DigestValue></Reference></SignedInfo><SignatureValue>ZrI82jHWpUX6Qcju7w8crDAI35rxGbRvf2zCaXIMm5xXg569OvRTpXqgbLV4/+h8UfVRFLjtqPSIj5VXhszRQilaLje4+NyadPaf1F0OHlY1aCCm+33nDclfBo69UH3NLYMxq2xbTQv2mV4ZAQ5Y+TAfMN081BuloK32ICux3wo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rsC4VSti6fP1OQ6gzK9UaHt58AJ2SkweLC/ViG6Ln1Jdxy8XMjAb8yM+H1r79IAxVw4C02+9bvJ0Ym8bbLnOPejs3RLlC4ZQKLgxrMlrRpnkHjr6iiGCehHWSKI/zUquR6Di++81XVExrapnzfeyYh2NtxmuoXoP27a5Vpx7r9M=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQJo4E3G6B2JVG5pPhthXoATANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioAQwBsAG8AdQBkAEUAeABjAGUAZQBkAEEARABcAFoAaABlAG4AZwBKAFgwHhcNMTcwNzIwMDEyODA5WhcNMTgwNzIwMDcyODA5WjA1MTMwMQYDVQQDHioAQwBsAG8AdQBkAEUAeABjAGUAZQBkAEEARABcAFoAaABlAG4AZwBKAFgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK7AuFUrYunz9TkOoMyvVGh7efACdkpMHiwv1Yhui59SXccvFzIwG/MjPh9a+/SAMVcOAtNvvW7ydGJvG2y5zj3o7N0S5QuGUCi4MazJa0aZ5B46+oohgnoR1kiiP81Krkeg4vvvNV1RMa2qZ833smIdjbcZrqF6D9u2uVace6/TAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAe+Lhzjrtrs6lKNBIQy8vJQsm7qG3dBFowqppzXLV3C7UbPSRlijOD6cPHTnf/MrsvPlwz8eNkUg+b98BXnooR97adpoiM+cwIFTYb2TH3PJvTYnkUuS7hQ5zFsI8Z3vIW223/Ffma/UiGQoxyfd1Qejlltt+dgJhSzpjniMSVug=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

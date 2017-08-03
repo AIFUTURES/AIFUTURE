@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfListViewContextMenu.InputUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfListViewContextMenu"
+        mc:Ignorable="d"
+        Title="输入账户" Height="380" Width="300">
+    <Grid KeyDown="Grid_KeyDown">
+        <Label Content="账号" HorizontalAlignment="Left" Margin="10,32,0,0" VerticalAlignment="Top" Width="79" Height="28"/>
+        <Label Content="密码" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top" Width="79" Height="28"/>
+        <Label Content="BrokerID" HorizontalAlignment="Left" Margin="10,88,0,0" VerticalAlignment="Top" Width="79" Height="23"/>
+        <Label Content="CTP" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Width="79" Height="23"/>
+        <Button Content="确认" HorizontalAlignment="Left" Margin="21,289,0,0" VerticalAlignment="Top" Width="75" Click="Add"/>
+        <Button Content="取消" HorizontalAlignment="Left" Margin="206,289,0,0" VerticalAlignment="Top" Width="75" Click="CancelButton_Click"/>
+        <Button Content="清空" HorizontalAlignment="Left" Margin="114,289,0,0" VerticalAlignment="Top" Width="75" Click="ClearButton"/>
+        <Button Content="删除信息" HorizontalAlignment="Left" Margin="207,245,0,0" VerticalAlignment="Top" Width="75" Click="DeleteUser"/>
+        <ComboBox x:Name="user" HorizontalAlignment="Left" Margin="114,32,0,0" VerticalAlignment="Top" Width="120" IsEditable="True" SelectionChanged="user_SelectionChanged"/>
+        <PasswordBox x:Name="password" HorizontalAlignment="Left" Height="22" Margin="114,61,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="broker" HorizontalAlignment="Left" Height="23" Margin="114,88,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text=""/>
+        <TextBox x:Name="ctp" HorizontalAlignment="Left" Height="34" Margin="114,116,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text=""/>
+        <TextBox x:Name="ProductInfo" HorizontalAlignment="Left" Height="34" Margin="114,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text=""/>
+        <Label Content="ProductInfo" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" Width="79" Height="23"/>
+        <TextBox x:Name="AuthCode" HorizontalAlignment="Left" Height="34" Margin="114,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text=""/>
+        <Label Content="AuthCode" HorizontalAlignment="Left" Margin="10,200,0,0" VerticalAlignment="Top" Width="79" Height="23"/>
+    </Grid>
+</Window>

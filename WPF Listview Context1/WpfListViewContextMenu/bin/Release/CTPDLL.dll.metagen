@@ -1,0 +1,63 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly CTPDLL, Version=0.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class clrClass: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    initialize(): PrivateScope, Public, HideBySig
+    prepare(): PrivateScope, Public, HideBySig
+    update(): PrivateScope, Public, HideBySig
+    Check(): PrivateScope, Public, HideBySig
+    EClear(): PrivateScope, Public, HideBySig
+    exit(): PrivateScope, Public, HideBySig
+    Connect(Int32): PrivateScope, Public, HideBySig
+    CloseAccount(Int32): PrivateScope, Public, HideBySig
+    OpenTest(): PrivateScope, Public, HideBySig
+    ClearAccount(Int32): PrivateScope, Public, HideBySig
+    AccountNum(): PrivateScope, Public, HideBySig
+    AccountName(Int32): PrivateScope, Public, HideBySig
+    GetAveWin(Int32): PrivateScope, Public, HideBySig
+    GetDoneNum(Int32): PrivateScope, Public, HideBySig
+    GetUnDoneNum(Int32): PrivateScope, Public, HideBySig
+    GetDoneDeal(Int32): PrivateScope, Public, HideBySig
+    GetPositionProfit(Int32): PrivateScope, Public, HideBySig
+    GetCloseProfit(Int32): PrivateScope, Public, HideBySig
+    GetBalance(Int32): PrivateScope, Public, HideBySig
+    GetMargin(Int32): PrivateScope, Public, HideBySig
+    GetConnectFlag(): PrivateScope, Public, HideBySig
+    GetTrade(Int32): PrivateScope, Public, HideBySig
+    GetCommission(Int32): PrivateScope, Public, HideBySig
+    GetVariID(Int32, Int32): PrivateScope, Public, HideBySig
+    VariNum(Int32): PrivateScope, Public, HideBySig
+    GetVariAveWin(Int32, Int32): PrivateScope, Public, HideBySig
+    GetVariPositionProfit(Int32, Int32): PrivateScope, Public, HideBySig
+    GetVariCloseProfit(Int32, Int32): PrivateScope, Public, HideBySig
+    GetVariPosition(Int32, Int32): PrivateScope, Public, HideBySig
+    GetVariCommission(Int32, Int32): PrivateScope, Public, HideBySig
+    GetVariAllOpen(Int32, Int32): PrivateScope, Public, HideBySig
+    ClearVariable(Int32, Int32): PrivateScope, Public, HideBySig
+    GetOrderLength(Int32): PrivateScope, Public, HideBySig
+    GetOrderVari(Int32, Int32): PrivateScope, Public, HideBySig
+    GetOrderTime(Int32, Int32): PrivateScope, Public, HideBySig
+    GetOrderVol(Int32, Int32): PrivateScope, Public, HideBySig
+    GetOrderPrice(Int32, Int32): PrivateScope, Public, HideBySig
+    GetOrderType(Int32, Int32): PrivateScope, Public, HideBySig
+    GetOrderStatu(Int32, Int32): PrivateScope, Public, HideBySig
+    AddInvesterID(String): PrivateScope, Public, HideBySig
+    AddPassWord(String): PrivateScope, Public, HideBySig
+    AddBrokerID(String): PrivateScope, Public, HideBySig
+    AddTradeAddr(String): PrivateScope, Public, HideBySig
+    AddProductInfo(String): PrivateScope, Public, HideBySig
+    AddAuthCode(String): PrivateScope, Public, HideBySig
+    SetMoneyDate(String, String, Int32): PrivateScope, Public, HideBySig
+    GetMoneyLength(Int32): PrivateScope, Public, HideBySig
+    PrepareMoney(Int32): PrivateScope, Public, HideBySig
+    GetMoneyValue(Int32, Int32): PrivateScope, Public, HideBySig
+    GetMoneyDate(Int32, Int32): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig

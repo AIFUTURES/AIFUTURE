@@ -1,0 +1,63 @@
+﻿<Window x:Class="WpfListViewContextMenu.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfListViewContextMenu"
+        mc:Ignorable="d"
+        Title="Window1" Height="600" Width="750">
+    <Grid>
+        <ListView x:Name="listvari" Margin="46,55,0,314" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Width="650" >
+            <ListView.ContextMenu>
+                <ContextMenu x:Name="ZoneIformationList" StaysOpen="true" Background="WhiteSmoke">
+                    <ContextMenu.BitmapEffect>
+                        <BitmapEffectGroup/>
+                    </ContextMenu.BitmapEffect>
+                    <MenuItem Header="清仓当前品种" x:Name="ClearMenu" Click="ClearMenu_OnClick"/>
+                </ContextMenu>
+            </ListView.ContextMenu>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="品种"  
+                                   Width="100" DisplayMemberBinding="{Binding AccountID}" />
+                    <GridViewColumn Header="浮动盈亏"  
+                                   Width="100" DisplayMemberBinding="{Binding TemProfit}" />
+                    <GridViewColumn Header="平仓盈亏"  
+                                   Width="100" DisplayMemberBinding="{Binding CloseProfit}" />
+                    <GridViewColumn Header="持仓"  
+                                   Width="100" DisplayMemberBinding="{Binding Position}" />
+                    <GridViewColumn Header="今日开仓总量"  
+                                   Width="100" DisplayMemberBinding="{Binding AllOpen}" />
+                    <GridViewColumn Header="手续费"  
+                                   Width="100" DisplayMemberBinding="{Binding Commission}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="button" Content="Exit" HorizontalAlignment="Right" Margin="0,0,46,10" VerticalAlignment="Bottom" Width="75" Click="button_Click"/>
+        <Button x:Name="buttonFresh" Content="刷新" HorizontalAlignment="Right" Margin="0,0,46,280" VerticalAlignment="Bottom" Width="75" Click="button_Fresh"/>
+        <ListView x:Name="listrecord" Margin="46,300,0,69" HorizontalAlignment="Left" Width="650" HorizontalContentAlignment="Center">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="品种"  
+                        Width="100" DisplayMemberBinding="{Binding Variable}" />
+                    <GridViewColumn Header="成交时间"  
+                        Width="100" DisplayMemberBinding="{Binding Time}" />
+                    <GridViewColumn Header="成交量"  
+                        Width="100" DisplayMemberBinding="{Binding TradeVol}" />
+                    
+                    <GridViewColumn Header="价格"  
+                        Width="100" DisplayMemberBinding="{Binding Price}" />
+                    <GridViewColumn Header="开/平"  
+                        Width="100" DisplayMemberBinding="{Binding TradeType}" />
+                    <GridViewColumn Header="状态"  
+                        Width="100" DisplayMemberBinding="{Binding Status}" />
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="持仓情况" Margin="346,25,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Content="报单成交" Margin="346,270,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Button x:Name="MoneyLine" Content="资金线" HorizontalAlignment="Right" Margin="0,0,139,280" VerticalAlignment="Bottom" Width="75" Click="MoneyLineClick"/>
+
+    </Grid>
+</Window>

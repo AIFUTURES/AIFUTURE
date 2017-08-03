@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!--DataTable: -->
+<DataTable TableName="" CountOfRows="1" CountOfColumns="5">
+  <ClomunName Column0="User" Column1="Broker" Column2="CTP" Column3="ProductInfo" Column4="AuthCodde" />
+  <Row0 Column0="083370" Column1="9999" Column2="tcp://180.168.146.187:10000" Column3="" Column4="" />
+</DataTable>

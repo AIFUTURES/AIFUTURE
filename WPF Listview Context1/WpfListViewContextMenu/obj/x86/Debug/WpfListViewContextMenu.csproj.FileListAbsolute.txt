@@ -1,0 +1,58 @@
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WpfListViewContextMenu.exe
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WpfListViewContextMenu.pdb
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\MainWindow.baml
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\MainWindow.g.cs
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\App.g.cs
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu_MarkupCompile.cache
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.g.resources
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.exe
+c:\users\administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.pdb
+C:\Users\Administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\Window1.g.cs
+C:\Users\Administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu_MarkupCompile.lref
+C:\Users\Administrator\documents\visual studio 2015\Projects\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\Window1.baml
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WpfListViewContextMenu.exe
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WpfListViewContextMenu.pdb
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.csprojResolveAssemblyReference.cache
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\MainWindow.baml
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\MainWindow.g.cs
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\Window1.g.cs
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\App.g.cs
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu_MarkupCompile.cache
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu_MarkupCompile.lref
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\Window1.baml
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.g.resources
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.Properties.Resources.resources
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.csproj.GenerateResource.Cache
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.exe
+G:\visualstudio2017\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.pdb
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WpfListViewContextMenu.exe
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WpfListViewContextMenu.pdb
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.csprojResolveAssemblyReference.cache
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\MainWindow.baml
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\MainWindow.g.cs
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\Window1.g.cs
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\App.g.cs
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu_MarkupCompile.cache
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu_MarkupCompile.lref
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\Window1.baml
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.g.resources
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.Properties.Resources.resources
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.csproj.GenerateResource.Cache
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.exe
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.pdb
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\InputUser.g.cs
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\InputUser.baml
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WpfListViewContextMenu.exe.config
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WpfListViewContextMenu.exe.manifest
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WpfListViewContextMenu.application
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.TrustInfo.xml
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.exe.manifest
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\obj\x86\Debug\WpfListViewContextMenu.application
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\Microsoft.CSharp.dll
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\Microsoft.VisualBasic.dll
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\PresentationCore.dll
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\PresentationFramework.dll
+C:\Users\ZhengJX\Desktop\ctp\AIFUTURE\WPF Listview Context1\WpfListViewContextMenu\bin\Debug\WindowsBase.dll

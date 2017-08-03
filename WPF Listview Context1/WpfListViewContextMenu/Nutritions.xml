@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Nutritions>
+    <Nutrition AccountID="账户汇总" TemProfit="0.0" CloseProfit="0.0"
+               DrawNum="0" DoneNum="0" AveProfit="0"></Nutrition>
+  <Nutrition AccountID="123" TemProfit="0.0" CloseProfit="0.0"
+             DrawNum="0" DoneNum="0" AveProfit="0"></Nutrition>
+</Nutritions>
